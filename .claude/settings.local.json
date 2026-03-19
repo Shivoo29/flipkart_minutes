@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java -version)",
+      "Read(//home/codemaster29/.sdkman/**)",
+      "Read(//home/codemaster29/**)",
+      "Bash(export JAVA_HOME=\"/home/codemaster29/.antigravity/extensions/redhat.java-1.52.0-linux-x64/jre/21.0.9-linux-x86_64\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:/tmp/apache-maven-3.9.6/bin:$PATH\")",
+      "Bash(mvn compile:*)",
+      "Bash(mvn spring-boot:run)"
+    ]
+  }
+}
